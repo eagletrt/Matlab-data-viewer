@@ -1,2 +1,2 @@
 # Matlab
-Matlab codes
+Matlab codes used to view and manage telemetry data.

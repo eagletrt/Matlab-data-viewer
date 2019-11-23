@@ -189,7 +189,7 @@ clc
 outCsv = [Position.latitude, Position.longitude, Position.altitude, Position.speed, Position.course, Position.hacc];
 
 dlmwrite('googleMaps.csv',outCsv,'delimiter', ',', 'precision', 9);
-% csvwrite('googleMaps.csv', outCsv); % Loss of precisione. Default is 3.
+% csvwrite('googleMaps.csv', outCsv); % 
 
 % Then you can upload and visualise data on:
 % https://www.gpsvisualizer.com/
@@ -199,7 +199,7 @@ dlmwrite('googleMaps.csv',outCsv,'delimiter', ',', 'precision', 9);
 % latitude,longitude,elevation,speed,course,hacc
 
 % NOTE:
-% Also Google Earth can load CSV files.
+% Also Google Earth can load CSV files
 
 %% Plot speed-course
 clc
